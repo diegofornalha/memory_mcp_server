@@ -1,6 +1,6 @@
-# Stellar MCP Server (Python)
+# memory MCP Server (Python)
 
-Servidor MCP Stellar implementado em Python com suporte completo para ferramentas, recursos e prompts.
+Servidor MCP memory implementado em Python com suporte completo para ferramentas, recursos e prompts.
 
 ## 🚀 Início Rápido
 
@@ -37,7 +37,7 @@ python memory_mcp_server.py --port 8080
 ## 📦 Estrutura do Projeto
 
 ```
-stellar/
+memory/
 ├── memory_mcp_server.py      # Servidor principal MCP
 ├── pyproject.toml         # Configuração do projeto Python
 ├── requirements.txt       # Dependências

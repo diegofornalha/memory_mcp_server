@@ -117,7 +117,7 @@ async def get_prompt(name: str, arguments: dict[str, Any]) -> types.PromptRespon
 ### Estrutura do Projeto
 
 ```
-stellar/
+memory/
 ├── memory_mcp_server.py      # Implementação principal do servidor
 ├── pyproject.toml        # Configuração do projeto Python
 ├── requirements.txt      # Dependências do projeto
@@ -142,7 +142,7 @@ stellar/
 
 2. **Atualize sua classe de servidor:**
    ```python
-   class StellarMCPServer:
+   class memoryMCPServer:
        def __init__(self, debug: bool = False):
            self.debug = debug
            self.app = Server("Nome do Seu Servidor")
@@ -327,14 +327,14 @@ CMD ["python", "memory_mcp_server.py", "--port", "8080"]
 ### Produção com Systemd
 ```ini
 [Unit]
-Description=Stellar MCP Server
+Description=memory MCP Server
 After=network.target
 
 [Service]
 Type=simple
 User=www-data
-WorkingDirectory=/path/to/stellar
-ExecStart=/usr/bin/python3 /path/to/stellar/memory_mcp_server.py
+WorkingDirectory=/path/to/memory
+ExecStart=/usr/bin/python3 /path/to/memory/memory_mcp_server.py
 Restart=always
 
 [Install]

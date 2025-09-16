@@ -1,9 +1,9 @@
 [project]
-name = "stellar-mcp-server"
+name = "memory-mcp-server"
 version = "1.0.0"
-description = "Servidor MCP Stellar em Python"
+description = "Servidor MCP memory em Python"
 authors = [
-    { name = "Stellar Team" }
+    { name = "memory Team" }
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-stellar-server = "memory_mcp_server:main"
+memory-server = "memory_mcp_server:main"
 
 [build-system]
 requires = ["hatchling"]
