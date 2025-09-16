@@ -116,7 +116,3 @@ Para deploy em produção:
 2. Configure a porta e modo de transporte apropriados
 3. Use um gerenciador de processos como systemd ou supervisor
 4. Configure um proxy reverso (nginx/apache) se necessário
-
-## 📄 Licença
-
-MIT

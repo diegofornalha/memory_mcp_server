@@ -7,9 +7,6 @@ Este é um servidor Model Context Protocol (MCP) implementado em Python que forn
 ## O que está Incluído
 
 - **Servidor MCP Python** com suporte completo ao protocolo MCP
-- **Ferramenta de Exemplo** (ferramenta `hello` com configuração de modo debug)
-- **Recurso de Exemplo** (`history://hello-world` com a história da origem do Hello World)
-- **Prompt de Exemplo** (prompt `greet` para gerar mensagens de saudação)
 - **Fluxo de Desenvolvimento** (`python memory_mcp_server.py` para testes locais)
 - **Suporte a Transporte SSE e STDIO** para diferentes tipos de integração
 - **CORS Configurado** para compatibilidade com aplicações web
